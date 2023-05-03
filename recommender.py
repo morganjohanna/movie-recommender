@@ -4,8 +4,8 @@ import pandas as pd
 import numpy as np
 import pickle
 
-ratings = pd.read_csv("/home/johanna/SPICED/nigela-network-student-code/Week10/data/legit_rated.csv", index_col = 0)
-Q = pd.read_csv("/home/johanna/SPICED/nigela-network-student-code/Week10/data/Q.csv", index_col = 0)
+ratings = pd.read_csv("./data/legit_rated.csv", index_col = 0)
+Q = pd.read_csv("./data/Q.csv", index_col = 0)
 with open("factorizer_NMF.pkl", "rb") as file_in:
     fitted_model = pickle.load(file_in)
  
