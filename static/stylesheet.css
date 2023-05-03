@@ -1,0 +1,51 @@
+/* This is a comment */
+/* General syntax of CSS (Cascading Style Sheet) */
+
+/* selector {
+    property:value;
+    another_property:another:value
+} */
+
+h1 {
+    color:brown
+}
+
+p {
+    color:darkblue
+}
+
+body {
+    text-align: center;
+    background-color: lavender;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+/* Changing the style by accessing the class attribute of tag . */
+
+.input-placeholder {
+    max-width: 150px;
+    background-color: bisque;
+}
+
+
+.input-placeholder:hover {
+    
+    background-color: palevioletred;
+    box-shadow: 3px 3px 6px;
+}
+
+/* Changing the style by accessing the id attribute of tag # */
+
+#logo-homepage {
+    border-radius: 400px;
+}
+
+#logo-homepage:hover {
+    background-color:darkgreen;
+    box-shadow: 3px 3px 6px;
+
+}
+
+#submit-button {
+    background-color:blueviolet;
+}

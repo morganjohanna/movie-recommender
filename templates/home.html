@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+    <link rel="stylesheet" href="../static/stylesheet.css">
+    <title>Welcome page</title>
+</head>
+<body>
+    <h1>Can't pick a movie?</h1>
+    <img id="logo-homepage" src="../static/curtain.jpg" width="300" height="300">
+    <p>Rate these movies from 0 to 5 stars so we can see what you like:</p>
+    <form action="/results">
+        Avatar: <input class="input-placeholder" type="text" name="Avatar (2009)" placeholder="0-5"><br>
+        Titanic: <input class="input-placeholder" type="text" name="Titanic (1997)" placeholder="0-5"><br>
+        X-Men: <input class="input-placeholder" type="text" name="X-Men (2000)" placeholder="0-5"><br>
+        <input id="submit-button" type="submit" value="click here">
+    </form>
+    <!-- <p>Get recommendations <a href="/results"> here</a>!
+    </p> -->
+</body>
+</html>
